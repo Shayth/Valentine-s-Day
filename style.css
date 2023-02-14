@@ -1,14 +1,15 @@
 body {
   text-align: center;
+  margin-top: 20%
 }
-/* heart div class - in html i used just a simple html simbol entity for heart sign, you can use text or whatever u want*/
 .heart {
 	font-size: 250px;
 	color: #e00;
-	animation: beat .25s infinite alternate;
+	animation: beat .20s infinite alternate;
 	transform-origin: center;
+
 }
 /* Heart beat animation */
 @keyframes beat{
-	to { transform: scale(1.8); }
+	to { transform: scale(1.2); }
 }
